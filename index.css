@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+   
+    color: white;
+    background-color: black;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+  
+
+
+ }
+
+ @font-face {
+    font-family: 'neo';
+    src: url('Fonts/neon_world/NEON\ WORLD\ DEMO.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'advent';
+    src: url('Fonts/advent-pro/AdventPro-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'nanum';
+    src: url('Fonts/nanum-gothic/NanumGothic-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+ .logo-titulo {
+        
+    display: flex;
+
+ } 
+
+ .logo-titulo > img {
+
+     width: 30px;
+     height: 38px;
+     margin: 22px 0px 0px 22px;
+
+
+ }
+
+ .logo-titulo > .titulo {
+        
+    width: 132px;
+    height: 19px;
+    margin: 32px 0px 0px 30px;
+    font-family: 'neo';
+    color: #f5d657;
+    text-shadow:#f5d657 0 1px 10px;
+
+ } 
+
+ .firts-page > .item-list {
+
+
+        list-style-type: none;
+        font-family: 'advent';
+
+ }
+
+ .firts-page > .item-list > .item01 {
+
+   width: 174px;
+   height: 28px;
+   margin: 31px 0px 0px 85px;
+
+
+ }
+
+ .firts-page > .item-list > .item02 {
+
+    width: 134px;
+    height: 30px;
+    margin: 31px 0px 0px 138px;
+ 
+ 
+  }
+
+  .firts-page > .item-list > .item03 {
+
+    width: 134px;
+    height: 27px;
+    margin: 31px 0px 0px 202px;
+ 
+ 
+  }
+
+  .firts-page > .item-list > .item04 {
+
+    width: 152px;
+    height: 42px;
+    margin: 31px 0px 0px 295px;
+ 
+ 
+  }
+
+  .firts-page > .item-list > .item05 {
+
+    width: 174px;
+    height: 48px;
+    margin: 84px 0px 0px 428px;
+    font-family: 'nanum';
+ 
+ 
+  }
